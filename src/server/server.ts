@@ -12,9 +12,7 @@ export class Server {
                 token: auth?.startsWith('Bearer ') ? auth.slice(7): null
             }
         })
-        this.app.group('/api/v1', (app) => 
-            app.use(userRouter)
-        )
+        this.app.group('/api/v1', (app) => app.use(userRouter))
 
     }
 
