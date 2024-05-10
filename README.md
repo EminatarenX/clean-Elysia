@@ -1,15 +1,16 @@
 # Elysia with Bun runtime
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
 
-## Development
-To start the development server run:
+1. instalar todos los packetes
 ```bash
-bun run dev
+bun install
 ```
-
-Open http://localhost:3000/ with your browser to see the result.
+2. generar el cliente de prisma
+```bash
+bunx prisma generate
+```
+3. Iniciar la aplicacion
+```bash
+bun start
+```

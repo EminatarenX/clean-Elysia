@@ -2,6 +2,7 @@
   "name": "clean-api",
   "version": "1.0.50",
   "scripts": {
+    "start": "bun run dist/src/index.js",
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
